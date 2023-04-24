@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import tomas.userservice.model.Car;
 
-@FeignClient(name = "car-service", url = "http://localhost:8002", path = "/car")
+@FeignClient(name = "car-service", path = "/car")
 public interface CarFeignClient {
     
     @PostMapping("/create")

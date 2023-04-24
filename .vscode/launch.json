@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BikeServiceApplication<bike-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tomas.bikeservice.BikeServiceApplication",
+            "projectName": "bike-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

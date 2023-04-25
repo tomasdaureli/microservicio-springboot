@@ -57,11 +57,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>io.zipkin.reporter2</groupId>
-			<artifactId>zipkin-reporter-brave</artifactId>
-		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -92,5 +88,16 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	
+	<dependency>
+		<groupId>io.zipkin.java</groupId>
+		<artifactId>zipkin-server</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>io.zipkin.java</groupId>
+		<artifactId>zipkin-autoconfigure-ui</artifactId>
+		<scope>runtime</scope>
+	</dependency>
 	
 </project>
